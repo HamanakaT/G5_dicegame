@@ -16,7 +16,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         
     }
-
+    //クリックされたらゲームを始める
     public void SwitchScene()
     {
         SceneManager.LoadScene("Main", LoadSceneMode.Single);
