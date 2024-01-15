@@ -579,8 +579,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 822624908}
-        m_TargetAssemblyTypeName: NewBehaviourScript1, Assembly-CSharp
-        m_MethodName: SwitchScene
+        m_TargetAssemblyTypeName: GameSceneManager, Assembly-CSharp
+        m_MethodName: MoveTitle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 822624902}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18119d5a022471d4fb422e0770d904be, type: 3}
+  m_Script: {fileID: 11500000, guid: 853efe0ec85962349b18a6f36f94dd69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1560053010

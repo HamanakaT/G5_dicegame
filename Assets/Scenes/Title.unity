@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 727059520}
   - component: {fileID: 727059519}
   - component: {fileID: 727059518}
-  - component: {fileID: 727059517}
+  - component: {fileID: 727059521}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -247,18 +247,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000015259, y: -111}
   m_SizeDelta: {x: 228.3601, y: 53.3864}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &727059517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727059515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dccc20c5962e9de468be9a43c66b73c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &727059518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,9 +291,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 727059517}
-        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: SwitchScene
+      - m_Target: {fileID: 727059521}
+        m_TargetAssemblyTypeName: GameSceneManager, Assembly-CSharp
+        m_MethodName: MoveStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -353,6 +341,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727059515}
   m_CullTransparentMesh: 1
+--- !u!114 &727059521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727059515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 853efe0ec85962349b18a6f36f94dd69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &911248660
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 1612447852}
   - component: {fileID: 1612447851}
   - component: {fileID: 1612447850}
-  - component: {fileID: 1612447849}
+  - component: {fileID: 1612447853}
   m_Layer: 5
   m_Name: SetumeiButton
   m_TagString: Untagged
@@ -955,18 +955,6 @@ RectTransform:
   m_AnchoredPosition: {x: 391.56995, y: -240.81}
   m_SizeDelta: {x: 228.3601, y: 53.3864}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1612447849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612447847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f3bec829817af340adba0944d73b365, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1612447850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1011,9 +999,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1612447849}
-        m_TargetAssemblyTypeName: OperationExplanationController, Assembly-CSharp
-        m_MethodName: SwitchScene
+      - m_Target: {fileID: 1612447853}
+        m_TargetAssemblyTypeName: GameSceneManager, Assembly-CSharp
+        m_MethodName: MoveSetumei
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1061,6 +1049,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612447847}
   m_CullTransparentMesh: 1
+--- !u!114 &1612447853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612447847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 853efe0ec85962349b18a6f36f94dd69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1966707168
 GameObject:
   m_ObjectHideFlags: 0
