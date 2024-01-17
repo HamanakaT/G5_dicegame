@@ -91,25 +91,25 @@ public class DiceController : MonoBehaviour
     void idou(int a,int n,GameObject c) {
         switch (n) {
             case 0:
-                c.transform.position = new Vector3(3.5f, 3.4f, 0f);
+                c.transform.position = new Vector3(-7.601f, -3.881f, 0f);
                 break;
             case 1:
-                c.transform.position= new Vector3(3.5f, 1.7f, 0f);
+                c.transform.position= new Vector3(-6.95f, -3.03f, 0f);
                 break;
             case 2:
-                c.transform.position = new Vector3(3.5f, 0f, 0f);
+                c.transform.position = new Vector3(-6.78f, -0.94f, 0f);
                 break;
             case 3:
-                c.transform.position = new Vector3(3.5f, -1.5f, 0f);
+                c.transform.position = new Vector3(-8.57f, -2.26f, 0f);
                 break;
             case 4:
-                c.transform.position = new Vector3(0.9f, -3.0f, 0f);
+                c.transform.position = new Vector3(-8.32f, -0.48f, 0f);
                 break;
             case 5:
-                c.transform.position = new Vector3(0.9f, -1.5f, 0f);
+                c.transform.position = new Vector3(-6.58f, 0.08f, 0f);
                 break;
             case 6:
-                c.transform.position = new Vector3(0.9f, 0f, 0f);
+                c.transform.position = new Vector3(-5.02f, 0.52f, 0f);
                 break;
             case 7:
                 c.transform.position = new Vector3(0.9f, 1.7f, 0f);
