@@ -77,6 +77,18 @@ public class DiceController : MonoBehaviour
         }
         
     }
+    void gonum(int t, int n, GameObject d)
+    {
+        if (d == m)
+        {
+            meT += n;
+        }
+        else
+        {
+            youT += n;
+        }
+
+    }
     void reset(int t, GameObject d)
     {
         if (d == m)
@@ -94,7 +106,17 @@ public class DiceController : MonoBehaviour
                 c.transform.position = new Vector3(-7.601f, -3.881f, 0f);
                 break;
             case 1:
+                
                 c.transform.position= new Vector3(-6.95f, -3.03f, 0f);
+                gonum(n, 6, c);
+                if (c == m)
+                {
+                    idou(a, meT, m);
+                }
+                else
+                {
+                    idou(a, youT, y);
+                }
                 break;
             case 2:
                 c.transform.position = new Vector3(-6.78f, -0.94f, 0f);
@@ -140,12 +162,31 @@ public class DiceController : MonoBehaviour
                 break;
             case 13:
                 c.transform.position = new Vector3(-0.461f, 2.1787f, 0f);
+                gonum(n, 3, c);
+                if (c == m)
+                {
+                    idou(a, meT, m);
+                }
+                else
+                {
+                    idou(a, youT, y);
+                }
                 break;
             case 14:
                 c.transform.position = new Vector3(1.2587f, 2.2987f, 0f);
                 break;
             case 15:
+                
                 c.transform.position = new Vector3(1.4087f, 3.1087f, 0f);
+                backnum(n, 2, c);
+                if (c == m)
+                {
+                    idou(a, meT, m);
+                }
+                else
+                {
+                    idou(a, youT, y);
+                }
                 break;
             case 16:
                 c.transform.position = new Vector3(2.9687f, 3.1687f, 0f);
