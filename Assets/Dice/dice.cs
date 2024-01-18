@@ -112,7 +112,7 @@ public class DiceController : MonoBehaviour
                 c.transform.position = new Vector3(-5.02f, 0.52f, 0f);
                 break;
             case 7:
-                c.transform.position = new Vector3(0.9f, 1.7f, 0f);
+                c.transform.position = new Vector3(-4.371f, 2.238791f, 0f);
                 backnum(n, 3,c);
                 if (c == m)
                 {
@@ -124,55 +124,55 @@ public class DiceController : MonoBehaviour
                 }
                 break;
             case 8:
-                c.transform.position = new Vector3(0.9f, 3.0f, 0f);
+                c.transform.position = new Vector3(-5.741f, 2.3787f, 0f);
                 break;
             case 9:
-                c.transform.position = new Vector3(0.9f, 4.5f, 0f);
+                c.transform.position = new Vector3(-3.531f, 3.0387f, 0f);
                 break;
             case 10:
-                c.transform.position = new Vector3(-1.8f, 3.5f, 0f);
+                c.transform.position = new Vector3(-2.711f, 2.5287f, 0f);
                 break;
             case 11:
-                c.transform.position = new Vector3(-1.8f, 1.9f, 0f);
+                c.transform.position = new Vector3(-2.241f, 3.4487f, 0f);
                 break;
             case 12:
-                c.transform.position = new Vector3(-1.8f, 0f, 0f);
+                c.transform.position = new Vector3(-0.791f, 3.2887f, 0f);
                 break;
             case 13:
-                c.transform.position = new Vector3(-1.8f, -1.5f, 0f);
+                c.transform.position = new Vector3(-0.461f, 2.1787f, 0f);
                 break;
             case 14:
-                c.transform.position = new Vector3(-1.8f, 3f, 0f);
+                c.transform.position = new Vector3(1.2587f, 2.2987f, 0f);
                 break;
             case 15:
-                c.transform.position = new Vector3(-4.5f, -3.4f, 0f);
+                c.transform.position = new Vector3(1.4087f, 3.1087f, 0f);
                 break;
             case 16:
-                c.transform.position = new Vector3(-4.5f, 1.9f, 0f);
+                c.transform.position = new Vector3(2.9687f, 3.1687f, 0f);
                 break;
             case 17:
-                c.transform.position = new Vector3(-4.5f, -1.7f, 0f);
+                c.transform.position = new Vector3(4.3887f, 3.18877f, 0f);
                 break;
             case 18:
-                c.transform.position = new Vector3(-4.5f, 0f, 0f);
+                c.transform.position = new Vector3(5.3387f, 2.8887f, 0f);
                 break;
             case 19:
-                c.transform.position = new Vector3(-4.5f, 1.9f, 0f);
+                c.transform.position = new Vector3(3.7687f, 2.0087f, 0f);
                 break;
             case 20:
-                c.transform.position = new Vector3(-4.5f, 3.7f, 0f);
+                c.transform.position = new Vector3(4.3287f, 0.9887f, 0f);
                 break;
             case 21:
-                c.transform.position = new Vector3(-7.2f, 4.5f, 0f);
+                c.transform.position = new Vector3(-0.06f, 1.2f, 0f);
                 break;
             case 22:
-                c.transform.position = new Vector3(-7.2f, 2.9f, 0f);
+                c.transform.position = new Vector3(1.1187f, 0.4487f, 0f);
                 break;
             case 23:
-                c.transform.position = new Vector3(-7.2f, 1.3f, 0f);
+                c.transform.position = new Vector3(-1.441f, -0.251f, 0f);
                 break;
             case 24:
-                c.transform.position = new Vector3(-7.2f, 0f, 0f);
+                c.transform.position = new Vector3(-3.141f, -0.931f, 0f);
                 reset(a,c);
                 if (c == m)
                 {
@@ -184,7 +184,7 @@ public class DiceController : MonoBehaviour
                 }
                 break;
             case 25:
-                c.transform.position = new Vector3(-7.2f, -2.6f, 0f);
+                c.transform.position = new Vector3(-6.221f, -3.801f, 0f);
                 break;
             
                 
